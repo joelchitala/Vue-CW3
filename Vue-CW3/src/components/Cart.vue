@@ -32,10 +32,7 @@
     </section>
 </template>
   
-  <script>
-//   import AppVue from '../App.vue'
-// import App from '@/App.vue';
-
+<script>
   export default {
     name: 'CartComponent',
     props:{
