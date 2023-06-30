@@ -57,8 +57,8 @@ export default {
   },
   methods:{
     loadProducts(){
-      const port = 3000
-      fetch(`http://localhost:${port}/collection/lessons`).then((res)=>{
+      // const port = 3000
+      fetch(`http://localhost:3000/collection/lessons`).then((res)=>{
         res.json().then((json)=>{
             this.products = json
         })
