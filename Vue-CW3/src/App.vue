@@ -31,7 +31,6 @@
 import CartComponent from './components/Cart.vue'
 import LessonComponent from './components/Lesson.vue'
 
-
 export default {
   name: 'App',
   created(){
