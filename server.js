@@ -15,7 +15,7 @@ const uri = "mongodb+srv://codingchitala:joel1990@cluster0.lripehw.mongodb.net";
 
 let db;
 client.connect(uri,(err,cli)=>{
-    db = cli.db('course_work_2_db');
+    db = cli.db('course_work_3');
 });
 
 app.use(cors())
